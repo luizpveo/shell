@@ -36,6 +36,12 @@ echo "and machine learning!" >> dir1/file1.txt
 # 6. How would you verify that the text was indeed appended to the existing file?
 cat dir1/file1.txt
 
+# 5. How would you append to one of the existing files " and machine learning!"?
+echo "and machine learning!" >> dir1/file1.txt
+
+# 6. How would you verify that the text was indeed appended to the existing file?
+cat dir1/file1.txt
+
 # 7. How would you delete all files except for the one with the appended text?
 rm dir1/file2.txt dir1/file3.txt dir1/file4.txt dir1/file5.txt
 rm dir2/*
@@ -44,6 +50,14 @@ rm dir4/*
 rm dir5/*
 cd dir1
 ls
+
+
+# 8. How would you navigate back to the parent directory containing all the directories?
+cd ..
+
+# 9. How would you remove each directory along with its contents?
+rm -r *
+
 
 # 8. How would you navigate back to the parent directory containing all the directories?
 cd ..
