@@ -56,6 +56,3 @@ rm -r *
 # 10. How would you verify that all directories and files have been deleted?
 ls
 
-
-# 10. How would you verify that all directories and files have been deleted?
-
